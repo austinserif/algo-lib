@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="algo-lib", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Austin Serif",
     author_email="austin@sans-serif.io",
     description="A small sample package with two search algorithms",
