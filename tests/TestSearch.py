@@ -1,5 +1,5 @@
 import unittest
-from algorithms_package.search.Search import Search
+from algo_lib.search.Search import Search
 
 unsorted_mock_array = [5, 2, 3, 10, -3]
 
