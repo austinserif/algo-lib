@@ -1,6 +1,6 @@
 README.md
 setup.py
-algo-lib/__init__.py
+algo_lib/__init__.py
 algo_lib.egg-info/PKG-INFO
 algo_lib.egg-info/SOURCES.txt
 algo_lib.egg-info/dependency_links.txt

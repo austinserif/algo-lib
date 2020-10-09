@@ -1,1 +1,1 @@
-algo-lib
+algo_lib
