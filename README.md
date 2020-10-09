@@ -1,6 +1,8 @@
 # Algo-lib (the Algorithm Library)
 
-This is a simple example package. It contains two searching algorithms. The purpose of this repo is to practice packaging a library for distribution. 
+This is a simple example package. It contains two searching algorithms. The purpose of this repo is to practice packaging a library for distribution.
+
+For package distribution information and release history, see: https://pypi.org/project/algo-lib/ 
 
 ### Quick Start
 
