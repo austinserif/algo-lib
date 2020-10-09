@@ -31,7 +31,7 @@ class Search:
 
     @classmethod
     def binary(cls, lst: list, low: int, high: int, target: int or str) -> int:
-        """ `binary_search` takes a SORTED list of length n and a target value, 
+        """ `binary_search` takes a SORTED list of length n, a low index, a high index, and a target value, 
             and returns the index of the target value in the list, if present. If no 
             match is identified, `binary_search` returns -1.
 
