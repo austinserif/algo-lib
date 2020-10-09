@@ -1,1 +1,1 @@
-algorithms_package
+algo-lib
