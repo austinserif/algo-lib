@@ -15,22 +15,32 @@ python3 -m pip install --upgrade algo-lib
 
 1. Binary Search
 ```python
-from algo_lib.search.Search import Search
+from algo_lib import search
 
 lst = [1, 50, 99, 150, 40000]
 targetValue = 99
 
 #binary search returns the index of a target value if present in a sorted list
-targetIndex = Search.binary(lst, 0, len(lst) - 1, targetValue) #targetIndex is 2
+targetIndex = search.binary(lst, 0, len(lst) - 1, targetValue) #targetIndex is 2
 ```
 
 2. Linear Search
 ```python
-from algo_lib.search.Search import Search
+from algo_lib import search
 
 lst = [5, 1, 2, 100, 41, -1]
 targetValue = -1
 
 #linear search returns the index of a target value if present in list
-targetIndex = Search.binary(lst, targetValue) #targetIndex is 5
+targetIndex = search.binary(lst, targetValue) #targetIndex is 5
+```
+
+3. Merge Sort
+```python
+from algo_lib import sort
+
+lst = [5, 1, 2, 100, 41, -1]
+
+#merge sort takes a list argument, and sorts it in either increasing or decreasing order
+targetIndex = sort.merge(lst) #lst is [-1, 1, 2, 5, 41, 100]
 ```
