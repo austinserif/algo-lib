@@ -5,5 +5,8 @@ algo_lib.egg-info/PKG-INFO
 algo_lib.egg-info/SOURCES.txt
 algo_lib.egg-info/dependency_links.txt
 algo_lib.egg-info/top_level.txt
-algo_lib/search/Search.py
 algo_lib/search/__init__.py
+algo_lib/search/binary.py
+algo_lib/search/linear.py
+algo_lib/sort/__init__.py
+algo_lib/sort/merge.py
